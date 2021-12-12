@@ -73,6 +73,7 @@ namespace w13_tugas
                     if (scrolls.FindIndex(x => x.Equals(inputBuku, StringComparison.OrdinalIgnoreCase)) != -1)
                     {
                         int hasil = scrolls.FindIndex(x => x.Equals(inputBuku, StringComparison.OrdinalIgnoreCase)) ;
+                        hasil += 1;
                         
                         Console.WriteLine("Book found. Queue number : " + hasil);
                         
